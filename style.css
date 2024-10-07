@@ -33,6 +33,19 @@ body {
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212; /* Dark background */
+    }
+
+    .calorie-counter {
+        background-color: transparent; /* Darker background for container */
+        color: #fff; /* Light text color */
+        border: 1px solid blue;
+        backdrop-filter: blur(20px);
+    }
+}
+
 .calorie-counter {
     width: 35%;
     height: auto;
