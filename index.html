@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wave"></div>
+    <div class="calorie-counter">
+        <h1>Calorie counter</h1>
+
+        <form id="calorieForm">
+            <div class="input-group">
+                <label for="walking">Minutes Walking:</label>
+                <input type="number" id="walkingTime" placeholder="Enter minutes">
+            </div>
+
+            <div class="input-group">
+                <label for="walking">Minutes Running:</label>
+                <input type="number" id="runningTime" placeholder="Enter minutes">
+            </div>
+
+            <div class="input-group">
+                <label for="walking">Minutes Cycling:</label>
+                <input type="number" id="cyclingTime" placeholder="Enter minutes">
+            </div>
+
+            <button type="button" class="btn">Calculate calories</button>
+
+            <p class="results">
+                <h2>Total Calories Burned: <span id="totalCalories">0</span></h2>
+            </p>
+        </form>
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
