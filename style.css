@@ -35,12 +35,12 @@ body {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #121212; /* Dark background */
+        background-color: #121212; 
     }
 
     .calorie-counter {
-        background-color: transparent; /* Darker background for container */
-        color: #fff; /* Light text color */
+        background-color: transparent; 
+        color: #fff; 
         border: 1px solid blue;
         backdrop-filter: blur(20px);
     }
