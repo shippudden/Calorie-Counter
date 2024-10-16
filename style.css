@@ -47,14 +47,14 @@ body {
 }
 
 .calorie-counter {
-    width: 35%;
+    width: 38%;
     height: auto;
     display: flex;
     flex-direction: column;
-    row-gap: 2rem;
+    row-gap: 3rem;
     margin: 5rem auto;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+    padding: 3rem;
     border-radius: 1rem;
     z-index: 1;
 }
@@ -71,6 +71,7 @@ input {
     border-radius: 0.5rem;
     font-size: 1.2rem;
     background-color: transparent;
+    color: #fff;
     border: 2px solid rgba(225, 225, 225, .5);
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     margin-bottom: 1.2rem;
@@ -112,6 +113,6 @@ input {
 
 @media (max-width: 576px) {
     .calorie-counter {
-        width: 80%;
+        width: 86%;
     }
 }
