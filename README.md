@@ -10,7 +10,7 @@ The Fitness Calorie Counter is a web-based application designed to help users tr
   - Running: 10 calories per minute
   - Cycling: 8 calories per minute
 - **Responsive Design:** The layout is optimized for various devices, ensuring usability on desktops, tablets, and smartphones.
-- **Dynamic Result Display:** The total calories burned is displayed prominently, allowing users to easily track their progress. The form resets after calculating to facilitate new entries while keeping the total calories visible.
+- **Dynamic Result Display:** The total calories burned are displayed prominently, allowing users to easily track their progress. The form resets after calculating to facilitate new entries while keeping the total calories visible.
 - **Dark Mode Support:** Utilizing the `prefers-color-scheme` media query, the application automatically adjusts its color scheme based on user preferences, enhancing visibility and comfort. The background wave animations also adapt, offering a consistent and appealing aesthetic in both light and dark modes.
 
 **Technologies Used:**
@@ -22,5 +22,5 @@ The Fitness Calorie Counter is a web-based application designed to help users tr
 The Fitness Calorie Counter is a practical tool for fitness enthusiasts and anyone looking to monitor their physical activity. By simplifying the process of tracking calories burned, the application encourages users to maintain an active lifestyle while providing a visually appealing and intuitive experience.
 
 Project Demo
-You can check out a live demo of this project here https://codepen.io/grealish/pen/rNXLBbr.
+You can check out a live demo of this project [here](https://shippudden.github.io/Calorie-Counter/).
 
