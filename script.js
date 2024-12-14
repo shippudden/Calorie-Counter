@@ -19,4 +19,7 @@ function calculateCalories () {
 
     calorieForm.reset()
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> aebc3c0bd0b4ef48741c928f92fc1e5205b8ecf5
